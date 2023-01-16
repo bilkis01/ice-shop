@@ -26,10 +26,11 @@ const Item = () => {
 
             <div className='filter-btns'>
                 <button className='active-btn filter-btn ' onClick={() => filterItem('all')}>All</button>
-                <button className=' filter-btn' onClick={() => filterItem('new')}>New</button>
-                <button className=' filter-btn' onClick={() => filterItem('bestseller')}>Best Sellers</button>
-                <button className=' filter-btn' onClick={() => filterItem('featured')}>Featured</button>
-                <button className=' filter-btn' onClick={() => filterItem('onSell')}>On Sell</button>
+                <button className=' filter-btn' onClick={() => filterItem('vanilla')}>Vanilla</button>
+                <button className=' filter-btn' onClick={() => filterItem('Chocolate')}>Chocolate</button>
+                <button className=' filter-btn' onClick={() => filterItem('Strawberry')}>Strawberry</button>
+                <button className=' filter-btn' onClick={() => filterItem('Butter')}>Butter</button>
+                <button className=' filter-btn' onClick={() => filterItem('sell')}>Best Sellers</button>
             </div>
             <br />
             <Items></Items>
