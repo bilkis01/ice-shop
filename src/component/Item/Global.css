@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@0,300;1,300;1,400&family=Poppins:ital,wght@0,600;1,100;1,200;1,300&family=Roboto:wght@300;400;700&family=Rubik:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-pad {
+    padding-bottom: 4rem;
+}
+
+.head-first {
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.head-two {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.head-three {
+    font-family: 'Righteous', cursive;
+    color: #76459D;
+}
+
+span {
+    color: #76459D;
+}
