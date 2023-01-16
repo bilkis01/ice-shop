@@ -18,7 +18,8 @@
 
 .head-two {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    color: #2A435D;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -26,7 +27,133 @@
     font-family: 'Righteous', cursive;
     color: #76459D;
 }
+.head-p{
+    font-family: 'Waterfall', cursive;
+    font-size: 1.8rem;
+    color: #76459D;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.text-md{
+    font-family: 'Righteous', cursive;
+    color: #2A435D;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: italic;
+}
 
 span {
     color: #76459D;
+}
+
+
+/* filter product */
+
+
+.filter-btns {
+    text-align: center;
+}
+
+.filter-btn {
+    background: none;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+.filter-btn::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #731C64;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+    color: #731C64;
+}
+
+.filter-btn:hover::after {
+    width: 100%;
+}
+
+.active-btn {
+    color: #76459D;
+}
+
+.active-btn::after {
+    width: 100%;
+}
+
+
+/* card section */
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #f0e6f8;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro .pro-img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+/* #product1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+} */
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #8c07fa;
+}
+
+#product1 .pro .cart{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 40px;
+    background-color:#e8d3fa;
+    color: #088178;
+    font-weight: 500;
+    border: 1px solid #76459D;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/* cart shop logo */
+.cart {
+    width: 2rem;
 }

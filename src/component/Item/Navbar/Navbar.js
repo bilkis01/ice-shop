@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logos from './../../../img/logos.png';
 import './../Global.css';
+
 
 const Navbar = () => {
 
@@ -35,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div class="navbar-center py-1">
-                    <a class=" nav-pad normal-case text-xl head-first ">Khadeyo</a>
+                    <a class=" nav-pad normal-case text-xl head-first "><img src={logos} alt="" /></a>
                 </div>
                 <div class="navbar-end">
                     <button class="btn btn-ghost btn-circle">
