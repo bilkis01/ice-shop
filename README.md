@@ -2,9 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## Project Name : 
+ Ice-cream-shop
+ 
+ ## FrameWork Use: 
+ - Tailwind,
+ - Daisy UI
+ 
+ ### Purposes of this project_
+ - it is a small ice cream shop website. 
 
 ### `npm start`
 
