@@ -1,12 +1,14 @@
 import React from 'react';
 import ice from './../../../img/ice.png';
+import back from './../../../img/back.png'
 import './../Global.css'
 
 const Banner = () => {
     return (
         <div class="hero min-h-screen px-12">
+            <img src={back} className="max-w-lg" alt="" />
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={ice} class="max-w-lg  " />
+                <img src={ice} class="max-w-lg" alt='' />
                 <div>
                     <h1 class="text-5xl font-bold head-three">Ice Cream </h1>
                     <h2 className='head-two'>That

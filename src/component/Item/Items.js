@@ -5,28 +5,33 @@ import shop from './../../img/shop.jpg';
 
 
 
-const Items = () => {
-    return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 '>
-            <section id="product1">
+const Items = ({ product}) => {
 
-                <div class="pro-container">
-                    <div class="pro">
-                        <img src={butter} alt="" />
-                        <div class="des">
-                            <img src="" alt="" />
-                            <span>adidas</span>
-                            <h4>$78</h4>
-                            <div>
-                                <img src={shop} className="cart" alt="shop cart" />
+    const { id, asset, name, price } = product;
+
+    return (
+        <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 '>
+                <section id="product1">
+
+                    <div class="pro-container">
+                        <div class="pro">
+                            <img src={asset} alt="" />
+                            <div class="des">
+                                <img src="" alt="" />
+                                <span>{name}</span>
+                                <h4>{price}</h4>
+                                <div>
+                                    <img src={shop} className="cart" alt="shop cart" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-            </section>
+                </section>
+            </div>
         </div>
     );
 };
 
 export default Items;
+

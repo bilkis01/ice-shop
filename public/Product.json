@@ -8,86 +8,113 @@
     },
     {
         "id": 2,
-        "asset": "img/choco.png",
-        "name": "Merry Chocolate",
-        "category": "Chocolate",
-        "price": "$38.00"
-    },
-    {
-        "id": 2,
-        "asset": "img/choco.png",
-        "name": "Merry Chocolate",
-        "category": "sell",
-        "price": "$38.00"
-    },
-    {
-        "id": 3,
         "asset": "img/strwberry.png",
         "name": " Strawberry cherry",
         "category": "Strawberry",
+        "category": "sell",
         "price": "$40.00"
     },
+    
+    {
+        "id": 3,
+        "asset": "img/butters.jpg",
+        "name": "Strawberry butter",
+        "category": "Strawberry",
+        "price": "$77.00"
+    },
+
+
+  
     {
         "id": 4,
         "asset": "img/choco.png",
         "name": "Drools",
         "category": "Chocolate",
+        "category": "sell",
         "price": "$42.00"
     },
     {
         "id": 5,
-        "asset": "img/color.jpg",
-        "name": "Vincent sugar",
-        "category": "vanilla",
-        "price": "$54.00"
+        "asset": "img/blackice.jpg",
+        "name": "Merry Chocolate",
+        "category": "sell",
+        "price": "$38.00"
     },
     {
         "id": 6,
+        "asset": "img/yellow.jpg",
+        "name": "Vanilla Ice",
+        "category": "vanilla",
+        "price": "$33.00"
+    },
+   
+    {
+        "id": 7,
         "asset": "img/pink.jpg",
         "name": "Poxy Choco",
         "category": "Chocolate",
         "price": "$50.00"
     },
     {
-        "id": 6,
+        "id": 8,
+        "asset": "img/color.jpg",
+        "name": "Vincent sugar",
+        "category": "vanilla",
+        "price": "$54.00"
+    },
+    
+    {
+        "id": 9,
         "asset": "img/pink.jpg",
         "name": "Poxy Choco",
         "category": "sell",
         "price": "$50.00"
     },
     {
-        "id": 7,
+        "id": 10,
         "asset": "img/choco.png",
         "name": "vanilla Love",
-        "category": "Butter",
+        "category": "Chocolate",
         "price": "$69.00"
     },
+  
     {
-        "id": 8,
+        "id": 11,
         "asset": "img/spring.png",
         "name": "Strawberry cat ",
         "category": "Strawberry ",
         "price": "$77.00"
     },
+    
+    
     {
-        "id": 8,
+        "id": 12,
+        "asset": "img/butters.jpg",
+        "name": "Strawberry butter",
+        "category": "sell",
+        "price": "$77.00"
+    },
+
+    {
+        "id": 13,
         "asset": "img/spring.png",
         "name": "Strawberry cat ",
         "category": "sell ",
         "price": "$77.00"
     },
     {
-        "id": 9,
-        "asset": "img/butters.jpg",
-        "name": "Strawberry butter",
-        "category": "Strawberry",
+        "id": 14,
+        "asset": "img/white.jpg",
+        "name": "Strawberry cat ",
+        "category": "butter",
         "price": "$77.00"
     },
     {
-        "id": 9,
-        "asset": "img/butters.jpg",
-        "name": "Strawberry butter",
+        "id": 15,
+        "asset": "img/conice.jpg",
+        "name": "Strawberry cat ",
         "category": "sell",
+        "category": "butter",
         "price": "$77.00"
     }
 ]
