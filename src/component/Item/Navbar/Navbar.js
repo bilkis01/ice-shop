@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logos from './../../../img/logos.png';
 import './../Global.css';
 
@@ -8,11 +8,11 @@ const Navbar = () => {
 
     const menuItems = <>
 
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/menu'>Menu</Link></li>
-        <li><Link to='/blog'>Blog</Link></li>
-        <li><Link to='/pages'>Pages</Link></li>
+        <li className='text-md font-bold text-white '><NavLink to='/'>Home</NavLink></li>
+        <li className='text-md '><Link to='/about'>About</Link></li>
+        <li className='text-md '><Link to='/menu'>Menu</Link></li>
+        <li className='text-md '><Link to='/blog'>Blog</Link></li>
+        <li className='text-md '><Link to='/pages'>Pages</Link></li>
 
     </>
 
