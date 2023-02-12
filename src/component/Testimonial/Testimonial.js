@@ -3,6 +3,7 @@ import user from '../../img/user.png';
 import users from '../../img/users.png';
 import icetesti from '../../img/icetesti.png';
 import icetesty from '../../img/icetesty.png';
+import '../Testimonial/Test.css'
 import Review from './Review';
 
 
@@ -26,7 +27,7 @@ const Testimonial = () => {
             test: icetesty
         },
         {
-            _id: 2,
+            _id: 3,
             name: "Winson Herry",
             review: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero eos error molestias atque ab sunt nisi commodi sint at.",
             img: user,
@@ -35,7 +36,7 @@ const Testimonial = () => {
         },
     ]
     return (
-        <section className='px-14 my-28'>
+        <section className='px-14 my-24 py-8 test-bg'>
             <div>
                 <h1 className="text-xl font-bold head-p">Testimonial</h1>
                 <p className='head-two'>Client <span>Feedback</span></p>

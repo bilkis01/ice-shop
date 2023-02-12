@@ -6,11 +6,9 @@ const Item = () => {
     const [products, setProducts] = useState([]);
     const [category, setCategory] = useState([]);
     const [nonOfElement, setnonOfElement] = useState(4);
-    console.log(products);
-
+    // console.log(products);
 
     const slice = products.slice(0, nonOfElement)
-
 
     useEffect(() => {
         fetch('Product.json')
@@ -26,10 +24,9 @@ const Item = () => {
 
         });
 
-
         cateItem === 'all' ? setCategory(products) : setCategory(updateItem)
 
-        console.log(category);
+        // console.log(category);
 
     }
 
@@ -82,7 +79,7 @@ const Item = () => {
 
                 }
             </div>
-                <br />
+            <br />
             <button className='btn btn-primary block w-52 text-white' onClick={() => loadMore()}>
                 Discover More
             </button>
