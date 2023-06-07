@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Project Name : 
  Ice-cream-shop
  
+ ##Project Link : https://ice-cream-shop-website-react.netlify.app/
+ 
  ## FrameWork Use: 
  - Tailwind,
  - Daisy UI
